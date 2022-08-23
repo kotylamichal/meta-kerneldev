@@ -1,0 +1,17 @@
+header:
+  version: 1
+machine: qemux86-64
+distro: poky
+repos:
+  meta-kerneldev:
+  poky:
+    url: "https://git.yoctoproject.org/git/poky"
+    refspec: 2e193726bd14f0cb0c8ab3f489e9ec7ddb04a615
+    layers:
+      meta:
+      meta-poky:
+      meta-yocto-bsp:
+
+target:
+  - kerneldev-image
+  - meta-toolchain
