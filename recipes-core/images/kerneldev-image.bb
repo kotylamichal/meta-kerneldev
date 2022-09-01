@@ -15,5 +15,3 @@ IMAGE_INSTALL += " \
     kexec-tools \
     openssh \
 "
-
-IMAGE_FSTYPES += " iso"

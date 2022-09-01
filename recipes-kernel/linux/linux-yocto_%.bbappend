@@ -1,4 +1,4 @@
-FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
+#FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
 
 # Build kernel with debug symbols
-SRC_URI += "file://fragment.cfg"
+#SRC_URI += "file://fragment.cfg"
